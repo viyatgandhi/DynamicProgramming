@@ -1,3 +1,8 @@
+/**
+ * @author viyat
+ * find minimum cost of matrix chain multiplication using dynamic programming
+ */
+
 public class matrixChainMultiplication {
 
 	int arraySize = 0;
@@ -8,6 +13,7 @@ public class matrixChainMultiplication {
 	}
 
 	public int findCost(int arr[]) {
+		
 		int memo[][] = new int[arr.length][arr.length];
 		parenthesis = new int[arr.length][arr.length];
 		int q = 0;
